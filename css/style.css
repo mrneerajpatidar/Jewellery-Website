@@ -235,3 +235,118 @@ p {
     margin: 1.0625rem auto;
 }
 
+/* New-Arrivals Section Design */
+.new-arrivals .banner-info {
+    bottom: 30px;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    padding: 0 15px;
+}
+
+.new-arrivals .card-banner:nth-child(2) h2,
+.new-arrivals .card-banner:nth-child(2) p,
+.new-arrivals .card-banner:nth-child(2) a {
+    color: var(--black-color);
+}
+
+.new-arrivals .card-banner:nth-child(2) a::before,
+.new-arrivals .card-banner:nth-child(2) a::after {
+    background-color: var(--black-color);
+}
+
+.new-arrivals .card-banner .card-thumb,
+.products .item-product {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.new-arrivals .card-banner .card-thumb img,
+.products .item-product img {
+    transition: all .5s ease-out 0s;
+}
+
+.new-arrivals .card-banner .card-thumb img:hover,
+.products .item-product img:hover {
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+
+/* Products Section Design */
+.products .wrapper {
+    background-color: var(--black-color);
+}
+
+.products .nav-tabs {
+    border: 0;
+    justify-content: center;
+}
+
+.products .nav-tabs .nav-link {
+    display: block;
+    padding: 0 30px;
+    border: 1px solid var(--white-color);
+    border-radius: 20px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    height: 36px;
+    margin: 10px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.products .product-info .cat-parent,
+.products .product-info .wishlist i {
+    font-size: 0.875rem;
+    color: var(--white-color);
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.products .product-title a {
+    margin: 0 0 7px;
+    display: block;
+    color: var(--white-color);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.products .rating i {
+    color: #f4d632;
+}
+
+.basket a i {
+    color: var(--white-color); 
+}
+
+/* Deal Of The Day Section Design */
+.deal-of-the-day {
+    background-image: url("../images/img/img-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* Blog Section Design */
+.blog-section {
+    background-color: var(--black-color);
+}
+
+/* Footer Section Design */
+.footer {
+    background-color: var(--secondry-color);
+}
+
+.footer .footer-social a i {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
+
+.footer .footer-social a:hover i {
+    color: var(--primary-color);
+}
